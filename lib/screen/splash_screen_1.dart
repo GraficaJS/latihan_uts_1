@@ -23,6 +23,12 @@ class MySplashScreen extends StatelessWidget {
                   ),
               ),
             ),
+            SizedBox(height: 15),
+            Text("Dota2",
+            style: TextStyle(
+              fontSize: 20.0,
+              fontWeight: FontWeight.bold,
+            ),)
           ],
         ),
       ),
