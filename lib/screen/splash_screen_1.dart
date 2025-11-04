@@ -31,10 +31,19 @@ class MySplashScreen extends StatelessWidget {
             ),),
             SizedBox(height: 15),
             Text("Macam-macam \n hero dota2",
+            textAlign: TextAlign.center,
             style: TextStyle(
               fontSize: 20.0,
               fontWeight: FontWeight.normal,
-            ),)
+            ),),
+            SizedBox(height: 20),
+            Row(
+              children: [
+                Text("bulet ke1"),
+                Text("bulet ke2"),
+                Text("bulet ke3"),
+              ],
+            ),
           ],
         ),
       ),
