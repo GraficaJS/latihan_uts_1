@@ -70,6 +70,7 @@ class MySplashScreen extends StatelessWidget {
             ),
             SizedBox(height: 20),
             Container(
+              margin: EdgeInsets.only(left: 40, right: 40),
                   child: SizedBox(
                     height: 40,
                     width: double.infinity,
