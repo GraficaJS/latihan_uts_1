@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'screen/splash_screen_1.dart';
+
 void main() {
   runApp(MyApp());
 }
