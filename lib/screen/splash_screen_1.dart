@@ -86,6 +86,7 @@ class MySplashScreen extends StatelessWidget {
                       ),)),
                   ),
                 ),
+                SizedBox(height: 70),
           ],
         ),
       ),
