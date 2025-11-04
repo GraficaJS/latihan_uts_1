@@ -9,6 +9,14 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp();
+    return MaterialApp(
+      title: "Nim : 1234567 , ketut",
+      theme: ThemeData(
+      useMaterial3: true,
+      colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
+      ),
+      debugShowCheckedModeBanner: false,
+      home: MySplashScreen(), //memanggil nama class splash screen 1
+    );
   }
 }
