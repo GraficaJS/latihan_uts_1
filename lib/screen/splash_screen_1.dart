@@ -49,8 +49,23 @@ class MySplashScreen extends StatelessWidget {
                   ),
                 ),
                 SizedBox(width: 10),
-                Text("bulet ke2"),
-                Text("bulet ke3"),
+                Container(
+                  width: 10,
+                  height: 10,
+                  decoration: BoxDecoration(
+                    shape: BoxShape.circle,
+                    color: Colors.amber,
+                  ),
+                ),
+                SizedBox(width: 10),
+                Container(
+                  width: 10,
+                  height: 10,
+                  decoration: BoxDecoration(
+                    shape: BoxShape.circle,
+                    color: Colors.amber,
+                  ),
+                ),
               ],
             ),
           ],
