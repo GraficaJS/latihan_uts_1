@@ -16,7 +16,11 @@ class MySplashScreen extends StatelessWidget {
               height: 250,
               decoration: BoxDecoration(
                 shape: BoxShape.circle,
-                color: Colors.redAccent
+                color: Colors.redAccent,
+                image: DecorationImage(
+                  image: AssetImage("/images/dota2.png"),
+                  fit: BoxFit.cover,
+                  ),
               ),
             ),
           ],
