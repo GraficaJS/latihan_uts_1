@@ -54,7 +54,7 @@ class MySplashScreen extends StatelessWidget {
                   height: 10,
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
-                    color: Colors.amber,
+                    color: Colors.amber[100],
                   ),
                 ),
                 SizedBox(width: 10),
@@ -63,11 +63,23 @@ class MySplashScreen extends StatelessWidget {
                   height: 10,
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
-                    color: Colors.amber,
+                    color: Colors.amber[100],
                   ),
                 ),
               ],
             ),
+            SizedBox(height: 20),
+            Container(
+                  child: ElevatedButton(
+                    onPressed: () {
+                    },
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: Colors.green,
+                    ),
+                    child: Text("Continue", 
+                    style: TextStyle(fontSize: 14
+                    ),)),
+                ),
           ],
         ),
       ),
