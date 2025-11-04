@@ -70,15 +70,19 @@ class MySplashScreen extends StatelessWidget {
             ),
             SizedBox(height: 20),
             Container(
-                  child: ElevatedButton(
-                    onPressed: () {
-                    },
-                    style: ElevatedButton.styleFrom(
-                      backgroundColor: Colors.green,
-                    ),
-                    child: Text("Continue", 
-                    style: TextStyle(fontSize: 14
-                    ),)),
+                  child: SizedBox(
+                    height: 40,
+                    width: double.infinity,
+                    child: ElevatedButton(
+                      onPressed: () {
+                      },
+                      style: ElevatedButton.styleFrom(
+                        backgroundColor: Colors.green,
+                      ),
+                      child: Text("Continue", 
+                      style: TextStyle(fontSize: 14
+                      ),)),
+                  ),
                 ),
           ],
         ),
