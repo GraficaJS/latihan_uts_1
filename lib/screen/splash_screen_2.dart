@@ -20,7 +20,7 @@ class MySplashScreen2 extends StatelessWidget {
                 shape: BoxShape.circle,
                 color: Colors.redAccent,
                 image: DecorationImage(
-                  image: AssetImage("/images/dota2.png"),
+                  image: AssetImage("/images/dota21.png"),
                   fit: BoxFit.cover,
                   ),
               ),
@@ -32,7 +32,7 @@ class MySplashScreen2 extends StatelessWidget {
               fontWeight: FontWeight.bold,
             ),),
             SizedBox(height: 15),
-            Text("Macam-macam \n hero dota2",
+            Text("Nevermore",
             textAlign: TextAlign.center,
             style: TextStyle(
               fontSize: 20.0,
